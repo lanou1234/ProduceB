@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7908567A1D34997500C8B05C /* IntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790856791D34997500C8B05C /* IntroduceViewController.m */; };
 		796939701D3497640032220B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7969396F1D3497640032220B /* main.m */; };
 		796939731D3497640032220B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796939721D3497640032220B /* AppDelegate.m */; };
 		796939761D3497640032220B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796939751D3497640032220B /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790856781D34997500C8B05C /* IntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceViewController.h; sourceTree = "<group>"; };
+		790856791D34997500C8B05C /* IntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceViewController.m; sourceTree = "<group>"; };
 		7969396B1D3497640032220B /* ProjectB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7969396F1D3497640032220B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		796939711D3497640032220B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790856761D34994400C8B05C /* Inroduce */ = {
+			isa = PBXGroup;
+			children = (
+				790856771D34995500C8B05C /* Controller */,
+			);
+			path = Inroduce;
+			sourceTree = "<group>";
+		};
+		790856771D34995500C8B05C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				790856781D34997500C8B05C /* IntroduceViewController.h */,
+				790856791D34997500C8B05C /* IntroduceViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		796939621D3497640032220B = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +121,7 @@
 		7969396D1D3497640032220B /* ProjectB */ = {
 			isa = PBXGroup;
 			children = (
+				790856761D34994400C8B05C /* Inroduce */,
 				796939711D3497640032220B /* AppDelegate.h */,
 				796939721D3497640032220B /* AppDelegate.m */,
 				796939741D3497640032220B /* ViewController.h */,
@@ -270,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7908567A1D34997500C8B05C /* IntroduceViewController.m in Sources */,
 				796939761D3497640032220B /* ViewController.m in Sources */,
 				796939731D3497640032220B /* AppDelegate.m in Sources */,
 				796939701D3497640032220B /* main.m in Sources */,
@@ -498,6 +520,7 @@
 				7969399A1D3497640032220B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7969399B1D3497640032220B /* Build configuration list for PBXNativeTarget "ProjectBTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				7969399D1D3497640032220B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7969399E1D3497640032220B /* Build configuration list for PBXNativeTarget "ProjectBUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				796939A01D3497640032220B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
